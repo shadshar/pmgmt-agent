@@ -2,7 +2,7 @@
 
 > [!WARNING]
 > This tool and its companion, pmgmt-service, have been (almost) entirely vibe coded. Barely anything in either of these repos has been reviewed by a professional software developer. Do not rely on this for anything even remotely resembling production use.
-> This is a hobby project. Vibe coding this does not constitute an endorsement of Ai tools.
+> This is a hobby project. Vibe coding this does not constitute an endorsement of AI tools.
 
 A command-line tool to determine available package updates for the host operating system.
 
@@ -19,7 +19,7 @@ A command-line tool to determine available package updates for the host operatin
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/pmgmt-agent.git
+git clone https://github.com/shadshar/pmgmt-agent.git
 cd pmgmt-agent
 
 # Set up Python environment with pyenv
@@ -47,7 +47,7 @@ pmgmt-agent --config /path/to/config.conf
 pmgmt-agent --send-to-api
 
 # Override API URL and key
-pmgmt-agent --send-to-api --api-url https://example.com/api --api-key YOUR_KEY
+pmgmt-agent --send-to-api --api-url https://example.com/api/updates --api-key YOUR_KEY
 
 # Override hostname
 pmgmt-agent --hostname custom-hostname
