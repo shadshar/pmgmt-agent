@@ -1,5 +1,9 @@
 # Patch Management Agent (pmgmt-agent)
 
+> [!WARNING]
+> This tool and its companion, pmgmt-service, have been (almost) entirely vibe coded. Barely anything in either of these repos has been reviewed by a professional software developer. Do not rely on this for anything even remotely resembling production use.
+> This is a hobby project. Vibe coding this does not constitute an endorsement of Ai tools.
+
 A command-line tool to determine available package updates for the host operating system.
 
 ## Features
